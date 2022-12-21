@@ -1,26 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    const names = ['Dimych', 'Sveta', 'Katya', 'Igor', 'Viktor']
+    const users = [
+        {name: 'Dimych'},
+        {name: 'Sveta'},
+        {name: 'Katya'},
+        {name: 'Igor'},
+        {name: 'Viktor'}
+    ]
+
+    const liElements = users.map((u, index) => <li key={index}>{u.name}</li>)
+
+    return (
+        <div className='App'>
+            <ul>
+                {liElements}
+            </ul>
+        </div>
+    );
 }
 
 export default App;
