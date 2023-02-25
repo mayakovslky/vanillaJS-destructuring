@@ -13,7 +13,6 @@ function App() {
         {name: 'Igor'},
         {name: 'Viktor'}
     ]
-
     const liElements = users.map((u, index) => <li key={index}>{u.name}</li>)
 
     return (
