@@ -1,8 +1,6 @@
 import React from 'react';
 import './App.css';
 
-//rename commit
-
 function App() {
 
     const names = ['Dimych', 'Sveta', 'Katya', 'Igor', 'Viktor']
