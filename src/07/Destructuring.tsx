@@ -7,6 +7,7 @@ type PropsType = {
     food: Array<string>
     car: {model: string}
 }
+
 // yourself useState
 
 // function useVovichState(m: string)  {
