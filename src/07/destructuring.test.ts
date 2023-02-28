@@ -39,7 +39,6 @@ test ('destructuring objects', () => {
 
 //!!!!!!!!!!!!!!!!!!! destructuring arrays
 
-
 test ('destructuring arrays', () => {
     const l1 = man.lessons[0];
     const l2 = man.lessons[1];
